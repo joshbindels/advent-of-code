@@ -10,6 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS on)
 
 add_subdirectory(common)
 add_subdirectory(aoc2021)
+add_subdirectory(aoc2022)
 
 add_custom_target(v ALL)
 add_custom_command(
