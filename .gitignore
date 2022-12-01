@@ -1,0 +1,7 @@
+.cache
+*.swp
+build
+compile_commands.json
+**/*.out
+**/*.dylib
+**/*.o
