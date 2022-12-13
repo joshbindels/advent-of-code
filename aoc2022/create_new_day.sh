@@ -9,6 +9,26 @@ touch $1/main.cpp
 touch $1/input.txt
 touch $1/CMakeLists.txt
 
+echo "
+#include <iostream>
+#include <fstream>
+
+void part_a()
+{
+}
+
+void part_b()
+{
+}
+
+int main()
+{
+    part_a();
+    part_b();
+    return 0;
+}
+" >> $1/main.cpp
+
 echo "add_subdirectory($1)" >> CMakeLists.txt
 
 echo "
